@@ -3,15 +3,20 @@ import './App.css';
 
 
 import Heading from './components/Heading';
-import Tasks from './components/Tasks';
+import TaskList from './components/TaskList';
+import TaskInput from './components/TaskInput';
+
 
 
 function App() {
   return (
     <>
-     <Heading/>
-     
-     <Tasks/>
+   
+    <Heading/>
+     <TaskInput/>
+     <TaskList/>
+   
+   
     </>
    
   );
